@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7637E6F52CF5B38800EB9446 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7637E6EF2CF5B38800EB9446 /* Preview Assets.xcassets */; };
+		7637E6F62CF5B38800EB9446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7637E6F12CF5B38800EB9446 /* Assets.xcassets */; };
+		7637E6F72CF5B38800EB9446 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637E6F22CF5B38800EB9446 /* MainView.swift */; };
+		7637E6F82CF5B38800EB9446 /* VoucherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637E6F32CF5B38800EB9446 /* VoucherAppApp.swift */; };
+		7637E6FE2CF5B59A00EB9446 /* VoucherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637E6FD2CF5B59A00EB9446 /* VoucherDetails.swift */; };
+		7637E7002CF5B61200EB9446 /* VoucherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637E6FF2CF5B61200EB9446 /* VoucherView.swift */; };
+		7637E7022CF5D1E400EB9446 /* VoucherForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637E7012CF5D1E400EB9446 /* VoucherForm.swift */; };
+		7637E7042CF5DFF700EB9446 /* MainViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637E7032CF5DFF700EB9446 /* MainViewVM.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7637E6DE2CF5B09100EB9446 /* VoucherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoucherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7637E6EF2CF5B38800EB9446 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7637E6F12CF5B38800EB9446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7637E6F22CF5B38800EB9446 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7637E6F32CF5B38800EB9446 /* VoucherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherAppApp.swift; sourceTree = "<group>"; };
+		7637E6FD2CF5B59A00EB9446 /* VoucherDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherDetails.swift; sourceTree = "<group>"; };
+		7637E6FF2CF5B61200EB9446 /* VoucherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherView.swift; sourceTree = "<group>"; };
+		7637E7012CF5D1E400EB9446 /* VoucherForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherForm.swift; sourceTree = "<group>"; };
+		7637E7032CF5DFF700EB9446 /* MainViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7637E6E02CF5B09100EB9446 /* VoucherApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VoucherApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7637E6DB2CF5B09100EB9446 /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		7637E6D52CF5B09100EB9446 = {
 			isa = PBXGroup;
 			children = (
-				7637E6E02CF5B09100EB9446 /* VoucherApp */,
+				7637E6F42CF5B38800EB9446 /* VoucherApp */,
 				7637E6DF2CF5B09100EB9446 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,61 @@
 				7637E6DE2CF5B09100EB9446 /* VoucherApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7637E6F02CF5B38800EB9446 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7637E6EF2CF5B38800EB9446 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7637E6F42CF5B38800EB9446 /* VoucherApp */ = {
+			isa = PBXGroup;
+			children = (
+				7637E6FC2CF5B3A900EB9446 /* Other */,
+				7637E6FB2CF5B39800EB9446 /* ViewModels */,
+				7637E6FA2CF5B39100EB9446 /* Models */,
+				7637E6F92CF5B38B00EB9446 /* Views */,
+				7637E6F02CF5B38800EB9446 /* Preview Content */,
+			);
+			path = VoucherApp;
+			sourceTree = "<group>";
+		};
+		7637E6F92CF5B38B00EB9446 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7637E6F22CF5B38800EB9446 /* MainView.swift */,
+				7637E6FF2CF5B61200EB9446 /* VoucherView.swift */,
+				7637E7012CF5D1E400EB9446 /* VoucherForm.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7637E6FA2CF5B39100EB9446 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7637E6FD2CF5B59A00EB9446 /* VoucherDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7637E6FB2CF5B39800EB9446 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7637E7032CF5DFF700EB9446 /* MainViewVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7637E6FC2CF5B3A900EB9446 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7637E6F12CF5B38800EB9446 /* Assets.xcassets */,
+				7637E6F32CF5B38800EB9446 /* VoucherAppApp.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +125,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7637E6E02CF5B09100EB9446 /* VoucherApp */,
 			);
 			name = VoucherApp;
 			packageProductDependencies = (
@@ -109,6 +172,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7637E6F52CF5B38800EB9446 /* Preview Assets.xcassets in Resources */,
+				7637E6F62CF5B38800EB9446 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7637E7042CF5DFF700EB9446 /* MainViewVM.swift in Sources */,
+				7637E6FE2CF5B59A00EB9446 /* VoucherDetails.swift in Sources */,
+				7637E7022CF5D1E400EB9446 /* VoucherForm.swift in Sources */,
+				7637E6F72CF5B38800EB9446 /* MainView.swift in Sources */,
+				7637E6F82CF5B38800EB9446 /* VoucherAppApp.swift in Sources */,
+				7637E7002CF5B61200EB9446 /* VoucherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
